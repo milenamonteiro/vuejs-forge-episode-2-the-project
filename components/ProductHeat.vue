@@ -10,6 +10,6 @@ const heatMap = {
 </script>
 <template>
   <span>
-    {{ heatLevel ? heatMap[heatLevel] : "" }}
+    {{ heatLevel[0] ? heatMap[heatLevel] : "" }}
   </span>
 </template>
